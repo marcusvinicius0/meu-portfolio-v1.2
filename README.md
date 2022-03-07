@@ -30,8 +30,8 @@ Mudanças: <br>
 ## O que falta?
 
 - Responsividade com mediaqueries;
-- Projeto Cadastro de Usuários;
-- Projeto Pedido de lanches;
+- Projeto Cadastro de Usuários; (Subir o back-end)
+- Projeto Pedido de lanches; (Subir o back-end)
 
 ## 🤝 Colaboradores
 
