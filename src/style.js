@@ -1017,8 +1017,9 @@ margin-top: -60.4vw;
 }
 
 @media (max-width: 425px){
-    margin-left: 15vw;
-    margin-top: -81vw;
+    margin-left: 61vw;
+    margin-top: -33vw;
+    margin-right: 30vw;
     justify-content: center;
     align-items: center;
 }
@@ -1050,7 +1051,7 @@ margin-top: -37vw;
 }
 
 @media (max-width: 425px){
-    margin-left: -102px;
+    margin-left: 9px;
     margin-top: -10vw;
     gap: 9vw;
 }
@@ -1097,10 +1098,6 @@ margin-top: -5vw;
 @media (max-width: 699px){
     padding-top: -3vw;
     margin-top: -70px;
-}
-
-@media (max-width: 425px){
-    display: none;
 }
 `
 
