@@ -1050,9 +1050,9 @@ margin-top: -24.7vw;
     gap: 9vw;
 }
 
-@media (max-width: 425px){
-    margin-left: 9px;
-    margin-top: -10vw;
+@media (min-width: 376px) and (max-width: 425px){
+    margin-left: 16px;
+    margin-top: -9vw;
     gap: 9vw;
 }
 `
@@ -1095,9 +1095,15 @@ margin-top: -5vw;
     margin-top: -74px;
 }
 
-@media (max-width: 699px){
+@media (min-width: 426px) and (max-width: 699px){
     padding-top: -3vw;
     margin-top: -70px;
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+    font-size: 12px;
+    padding-top: -3vw;
+    margin-top: -62px;
 }
 `
 
