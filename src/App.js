@@ -61,6 +61,7 @@ function App() {
    console.log("oii")
   }
 
+
   return (
     <div>
       <Nav>
@@ -96,8 +97,7 @@ function App() {
         <H2>Sobre mim</H2>
         <Info>Tenho 22 anos e sou um cara que é apaixonado por esse universo incrível do desenvolvimento.
            Foco em fazer projetos que são mais próximos da realidade do mercado de trabalho, como:
-          landing pages, formulários, interfaces de login, cadastro de usuários.
-          Ah, eu faço curso de  Análise e Desenvolvimento de Sistemas pela UNIASSELVI e também faço parte do bootcamp
+          landing pages, formulários, interfaces de login, cadastro de usuários. Faço parte do bootcamp
           de programação chamado DevClub, onde aprendemos tanto o lado do cliente quanto o do servidor.  No front-end passamos por HTML5, CSS3, JavaScript e React.js. Já no back-end
           passamos por node.js, API's e Sequelize. </Info>
         <FirstLine></FirstLine>
@@ -108,20 +108,20 @@ function App() {
         <Container>
           <SecondLine></SecondLine>
           <FirstProject>
-            <a href='' target="_blank" rel="noreferrer"> <PrintFirstProject src={RegisterProject}>
+            <a href='https://github.com/marcusvinicius0/Cadastro-de-Usuarios-FRONTEND' target="_blank" rel="noreferrer"> <PrintFirstProject src={RegisterProject}>
             </PrintFirstProject></a> <P>Projeto Cadastro de Usuários, <br /> <Strong>desenvolvido com React e node.js.</Strong></P>
-            <a href='' target="_blank" rel="noreferrer"><GHlogo1 src={GitHubLogo} alt="github-icon" /></a>
+            <a href='https://github.com/marcusvinicius0/Cadastro-de-Usuarios-FRONTEND' target="_blank" rel="noreferrer"><GHlogo1 src={GitHubLogo} alt="github-icon" /></a>
           </FirstProject>
 
-          <SecondProject><a href='' target="_blank" rel="noreferrer"><PrintSecondProject src={MyPortfolioProjectPrint}></PrintSecondProject></a>
+          <SecondProject><a href='https://meuportfoliov3.netlify.app/' target="_blank" rel="noreferrer"><PrintSecondProject src={MyPortfolioProjectPrint}></PrintSecondProject></a>
             <P> Projeto Meu Portfolio, <br /> <Strong>desenvolvido com React.</Strong></P>
-            <a href='' target="_blank" rel="noreferrer"><GHlogo1 src={GitHubLogo} alt="github-icon" /></a></SecondProject>
+            <a href='https://github.com/marcusvinicius0/Meu-Portfolio-v1.2' target="_blank" rel="noreferrer"><GHlogo1 src={GitHubLogo} alt="github-icon" /></a></SecondProject>
 
-          <ThirdProject><a href='' target="_blank" rel="noreferrer"><PrintThirdProject src={BurguerOrder}></PrintThirdProject></a>
+          <ThirdProject><a href='https://github.com/marcusvinicius0/Pedido-de-lanches' target="_blank" rel="noreferrer"><PrintThirdProject src={BurguerOrder}></PrintThirdProject></a>
             <P> Projeto Pedido de lanches, <br />
               <Strong>desenvolvido
                 com React e node.js.</Strong></P>
-            <a href='' target="_blank" rel="noreferrer"><GHlogo1 src={GitHubLogo} alt="github-icon" /></a></ThirdProject>
+            <a href='https://github.com/marcusvinicius0/Pedido-de-lanches' target="_blank" rel="noreferrer"><GHlogo1 src={GitHubLogo} alt="github-icon" /></a></ThirdProject>
 
           <FourthProject><a href='https://marcusvinicius0.github.io/playstation-project/' target="_blank" rel="noreferrer"><PrintFourthProject src={PS5Project}></PrintFourthProject></a>
             <P> Projeto Landing Page DualShock, <br /> <Strong>desenvolvido com HTML, CSS e JS.</Strong></P>
@@ -160,7 +160,7 @@ function App() {
           <ReactImg src={ReactLogo}></ReactImg><ReactXP>03 semanas experiência ({dataAtual});</ReactXP>
         </div>
         <div className='second-skill'>
-          <JavaScriptImg src={JavaScriptLogo}></JavaScriptImg><JSXP>02 meses experiência ({dataAtual});</JSXP>
+          <JavaScriptImg src={JavaScriptLogo}></JavaScriptImg><JSXP>03 meses experiência ({dataAtual});</JSXP>
         </div>
         <div className='third-skill'>
           <CssImg src={CssLogo}></CssImg><CSSXP>04 meses experiência ({dataAtual});</CSSXP>
