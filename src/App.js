@@ -182,7 +182,7 @@ function App() {
         <H5 id='contato'>Contato</H5>
       </Contato>
       <Contact>
-          <LinkedinLink src={In}></LinkedinLink><LINK href='https://www.linkedin.com/in/marcusviniciusbeghelisantos/' target="_blank">www.linkedin.com/in/marcusviniciusbeghelisantos</LINK>
+          <LinkedinLink src={In}></LinkedinLink><LINK href='https://www.linkedin.com/in/marcusviniciusbeghelisantos/' target="_blank">linkedin.com/in/marcusviniciusbeghelisantos</LINK>
           <WPPLink src={WhatsAppLogo}></WPPLink><LINK href="https://wa.me/5534988685919" target='_blank'>34 98868-5919</LINK>
           <GMAILLink src={GmailLogo}></GMAILLink><LINK href="mailto:marcusvbegheli@gmail.com" target="_blank">marcusvbegheli@gmail.com</LINK>
         </Contact>

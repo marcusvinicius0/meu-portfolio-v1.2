@@ -250,8 +250,13 @@ border-radius: 10vw;
     margin-top: 47.5vw;
 }
 
-@media (max-width: 425px){
+@media (min-width: 321px) and (max-width: 425px){
     margin-top: 55vw;
+    margin-left: -9vw;
+}
+
+@media (max-width: 320px){
+    margin-top: 71vw;
     margin-left: -9vw;
 }
 `
@@ -305,9 +310,14 @@ margin-top: 3.2vw;
     margin-top: 30px;
 }
 
-@media (max-width: 425px){
+@media (min-width: 321px) and (max-width: 425px){
     margin-left: 58vw;
     margin-top: 43px;
+}
+
+@media (max-width: 320px){
+margin-left: 62vw;
+margin-top: 36px;
 }
 `
 
@@ -352,20 +362,20 @@ opacity: 0.3;
 `
 
 export const AboutMe = styled.div`
-    display: flex;
-    flex-direction: column;
-    margin-top: 1vw;
-    margin-left: 5vw;
+display: flex;
+flex-direction: column;
+margin-top: 1vw;
+margin-left: 5vw;
 
-    @media (min-width: 600px) and (max-width: 800px){
-        margin-top: -55vw;
-        margin-left: 2vw;
-    }
+@media (min-width: 600px) and (max-width: 800px){
+margin-top: -55vw;
+margin-left: 2vw;
+}
 
-    @media (min-width: 550px) and (max-width: 599px){
-        margin-top: -55vw;
-        margin-left: 2vw;
-    }
+@media (min-width: 550px) and (max-width: 599px){
+margin-top: -55vw;
+margin-left: 2vw;
+}
 `
 
 export const H2 = styled.h2`
@@ -373,23 +383,23 @@ font-size: 45px;
 color:#0F98AF;
 
 @media (min-width: 600px) and (max-width: 799px){
-    text-align: center;
+text-align: center;
 }
 
 @media (min-width: 550px) and (max-width: 599px){
-    text-align: center;
-    margin-top: 150px;
+text-align: center;
+margin-top: 150px;
 }
 
 @media (min-width: 500px) and (max-width: 549px){
-    text-align: center;
-    margin-top: -150px;
+text-align: center;
+margin-top: -150px;
 }
 
 @media (max-width: 499px){
-    text-align: center;
-    margin-top: -60vw;
-    margin-left: -6vw;
+text-align: center;
+margin-top: -60vw;
+margin-left: -6vw;
 }
 `
 
@@ -400,30 +410,30 @@ font-weight: 500;
 padding-top: 20px;
 
 @media (min-width: 700px) and (max-width: 800px){
-    font-size: 16px;
-    text-align:left;
+font-size: 16px;
+text-align:left;
 }
 
 @media (min-width: 650px) and (max-width: 699px){
-    font-size: 16px;
-    text-align:left;
+font-size: 16px;
+text-align:left;
 }
 
 @media (min-width: 600px) and (max-width: 649px){
-    font-size: 16px;
-    text-align:left;
+font-size: 16px;
+text-align:left;
 }
 
 
 @media (min-width: 550px) and (max-width: 599px){
-    font-size: 16px;
-    text-align:left;
+font-size: 16px;
+text-align:left;
 }
 
 @media (max-width: 499px){
-    font-size: 14px;
-    margin-left: -4.8vw;
-    text-align:center ;
+font-size: 14px;
+margin-left: -4.8vw;
+text-align:center ;
 }
 `
 
@@ -437,35 +447,35 @@ border-end-end-radius: 8px;
 border-start-start-radius: 8px;
 
 @media(min-width: 950px) and (max-width: 1115px){
-    width: 60vw;
+width: 60vw;
 }
 
 @media(min-width: 900px) and (max-width: 949px){
-    width: 70vw;
+width: 70vw;
 }
 
 @media(min-width: 850px) and (max-width: 899px){
-    width: 75vw;
+width: 75vw;
 }
 
 @media (min-width: 800px) and (max-width: 849px){
-    width: 75vw;
+width: 75vw;
 }
 
 @media (min-width: 600px) and (max-width: 799px){
-    width: 98%;
+width: 98%;
 }
 
 @media (min-width: 550px) and (max-width: 599px){
-    width: 98%;
+width: 98%;
 }
 
 @media (min-width: 500px) and (max-width: 549px){
-    width: 98%;
+width: 98%;
 }
 
 @media (max-width: 499px){
-    width: 98%;
+width: 98%;
 }
 `
 
@@ -478,10 +488,10 @@ align-items: center;
 `
 
 export const H3 = styled.h3`
-    font-size: 45px;
-    margin-top: 80px;
-    color: #0F98AF;
-    text-align: center;
+font-size: 45px;
+margin-top: 80px;
+color: #0F98AF;
+text-align: center;
 `
 
 export const Container = styled.div`
@@ -492,7 +502,7 @@ justify-content: center;
 gap: 3vw;
 
 @media (max-width: 499px){
-    gap: 10vw;
+gap: 10vw;
 }
 `
 
@@ -512,7 +522,7 @@ color: white;
 text-align: center;
 font-size: 15px;
 &:hover {
-    transition: 0.2s;
+transition: 0.2s;
 }
 `
 
@@ -523,9 +533,9 @@ opacity: 0.2;
 `
 
 export const P = styled.p`
-    text-align: start;
-    padding-top: 0.5vw;
-    padding-left: 1vw;
+text-align: start;
+padding-top: 0.5vw;
+padding-left: 1vw;
 `
 
 export const Strong = styled.strong`
@@ -540,57 +550,63 @@ margin-left: 8vw;
 margin-top: -2.5vw;
 
 &:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-            transition: 0.3s
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+transition: 0.3s
 }
 
 @media (min-width: 950px) and (max-width: 1115px){
-     margin-left: 9vw;
-     margin-top: -3.3vw;
-     width: 3.5vw;
+margin-left: 9vw;
+margin-top: -3.3vw;
+width: 3.5vw;
  }
 
  @media (min-width: 900px) and (max-width: 949px){
-     margin-left: 12vw;
-     margin-top: -3.6vw;
-     width: 5vw;
+margin-left: 12vw;
+margin-top: -3.6vw;
+width: 5vw;
  }
 
 @media (min-width: 850px) and (max-width: 899px){
-    margin-left: 13vw;
-    margin-top: -3.8vw;
-    width: 5vw;
+margin-left: 13vw;
+margin-top: -3.8vw;
+width: 5vw;
 }
 
 @media (min-width: 800px) and (max-width: 849px){
-    margin-left: 14vw;
-    margin-top: -3.9vw;
-    width: 5vw;
+margin-left: 14vw;
+margin-top: -3.9vw;
+width: 5vw;
 }
 
 @media (min-width: 600px) and (max-width: 799px){
-    margin-left: 14vw;
-    margin-top: -4.3vw;
-    width: 5vw;
+margin-left: 14vw;
+margin-top: -4.3vw;
+width: 5vw;
 }
 
 @media (min-width: 550px) and (max-width: 599px){
-    margin-left: 18vw;
-    margin-top: -5.5vw;
-    width: 5vw;
+margin-left: 18vw;
+margin-top: -5.5vw;
+width: 5vw;
 }
 
 @media (min-width: 500px) and (max-width: 549px){
-    margin-left: 22vw;
-    margin-top: -6vw;
-    width: 7vw;
+margin-left: 22vw;
+margin-top: -6vw;
+width: 7vw;
 }
 
-@media (max-width: 425px){
-    margin-left: 27vw;
-    margin-top: -7.5vw;
-    width: 10vw;
+@media (min-width: 321px) and (max-width: 425px){
+margin-left: 27vw;
+margin-top: -7.5vw;
+width: 10vw;
+}
+
+@media (max-width: 320px){
+margin-left: 29vw;
+margin-top: -9.5vw;
+width: 14vw;
 }
 `   
 
@@ -741,9 +757,9 @@ align-items: flex-start;
 margin-left: 4.5vw;
 
 @media (max-width: 849px){
-    justify-content: center;
-    align-items: center;
-    margin-left: 2vw;
+justify-content: center;
+align-items: center;
+margin-left: 2vw;
 }
 `
 
@@ -767,17 +783,25 @@ margin-top: 2vw;
 margin-left: 3.9vw;
 
 @media (min-width: 545px) and (max-width: 849px){
-    justify-content: center;
-    align-items: center;
-    margin-top: 8vw;
-    gap: 5vw;
+justify-content: center;
+align-items: center;
+margin-top: 8vw;
+gap: 5vw;
 }
 
 @media (max-width: 544px){
-    justify-content: center;
-    align-items: center;
-    margin-top: 8vw;
-    gap: 8vw;
+justify-content: center;
+align-items: center;
+margin-top: 8vw;
+gap: 8vw;
+}
+
+@media (max-width: 320px){
+justify-content: center;
+align-items: center;
+margin-top: 8vw;
+gap: 15vw;
+margin-left: 11vw;
 }
 `
 
@@ -793,13 +817,18 @@ width: 5vw;
 }
 
 @media (max-width: 549px){
-    width: 7vw;
-    margin-left: 3vw;
+width: 7vw;
+margin-left: 3vw;
 }
 
-@media (max-width: 425px){
-    width: 10vw;
-    margin-left: -13vw;
+@media (min-width: 321px) and (max-width: 425px){
+width: 10vw;
+margin-left: -13vw;
+}
+
+@media (max-width: 320px){
+width: 15vw;
+margin-left: -13vw;
 }
 `
 
@@ -832,12 +861,17 @@ width: 4.3vw;
 }
 
 @media (max-width: 549px){
-    width: 6vw;
+width: 6vw;
 }
 
-@media (max-width: 425px){
-    width: 8vw;
-    margin-left: -16vw;
+@media  (max-width: 425px){
+width: 8vw;
+margin-left: -16vw;
+}
+
+@media (max-width: 320px){
+ width: 12vw;
+margin-left: -15.5vw;
 }
 `
 export const JSXP = styled.p`
@@ -846,7 +880,7 @@ margin-left: 60px;
 margin-top: -31px;
 
 @media (max-width: 425px){
-    margin-left: 1vw;
+margin-left: 1vw;
 }
 `
 
@@ -861,15 +895,20 @@ width: 4.5vw;
 }
 
 @media (max-width: 549px){
-    width: 7vw;
-    margin-left: 0.5vw;
+ width: 7vw;
+margin-left: 0.5vw;
 }
 
-@media (max-width: 425px){
-    width: 10vw;
-    height: 5.5vh;
-    margin-left: -17.2vw;
-    margin-top: 2vw;
+@media (min-width: 321px) and (max-width: 425px){
+width: 10vw;
+height: 5.5vh;
+margin-left: -17.2vw;
+margin-top: 2vw;
+}
+
+@media (max-width: 320px){
+width: 14vw;
+margin-left: -16.5vw;
 }
 `
 
@@ -879,7 +918,7 @@ margin-left: 60px;
 margin-top: -31px;
 
 @media (max-width: 425px){
-    margin-left: 1vw;
+margin-left: 1vw;
 }
 `
 
@@ -897,9 +936,14 @@ width: 5vw;
 width: 9vw;
 }
 
-@media (max-width: 425px){
-  width: 12vw;
-  margin-left: -19vw;
+@media (min-width: 321px) and (max-width: 425px){
+width: 12vw;
+margin-left: -19vw;
+}
+
+@media (max-width: 320px){
+width: 17vw;
+margin-left: -18.2vw;
 }
 `
 
@@ -909,7 +953,7 @@ margin-left: 60px;
 margin-top: -31px;
 
 @media (max-width: 425px){
-    margin-left: 0vw;
+margin-left: 0vw;
 }
 `
 
@@ -928,9 +972,14 @@ width: 4.5vw;
 width: 7vw;
 }
 
-@media (max-width: 425px){
-    width: 10vw;
-    margin-left: -18vw;
+@media (min-width: 321px) and (max-width: 425px){
+width: 10vw;
+margin-left: -18vw;
+}
+
+@media (max-width: 320px){
+width: 14vw;
+margin-left: -17vw;
 }
 `
 export const GITXP = styled.p`
@@ -963,6 +1012,10 @@ border-end-end-radius: 10px;
 @media (max-width: 849px){
     width: 90vw;
     margin-top: 6vw;
+}
+
+@media (max-width: 320px){
+    margin-top: 12vw;
 }
 `
 
@@ -1050,10 +1103,16 @@ margin-top: -24.7vw;
     gap: 9vw;
 }
 
-@media (min-width: 376px) and (max-width: 425px){
+@media (min-width: 321px) and (max-width: 425px){
     margin-left: 16px;
     margin-top: -9vw;
     gap: 9vw;
+}
+
+@media (max-width: 320px){
+    margin-left: 16px;
+    margin-top: 8vw;
+    gap: 12vw;
 }
 `
 
@@ -1062,25 +1121,29 @@ width: 3.5vw;
 height: 5.5vh;
 
 @media (min-width: 950px) and (max-width: 1115px){
-    margin-top: 45px;
+margin-top: 45px;
 }
 
 @media (min-width: 900px) and (max-width: 949px){
-    margin-top: 76px;
+margin-top: 76px;
 }
 
 @media (min-width: 850px) and (max-width: 899px){
-    margin-top: 78px;
+margin-top: 78px;
 }
 
 @media (min-width: 550px) and (max-width: 849px){
-    margin-top: 75px;
-    width: 5vw;
+margin-top: 75px;
+width: 5vw;
 }
 
-@media (max-width: 425px){
-    margin-top: 75px;
-    width: 10vw;
+@media (min-width: 321px) and (max-width: 425px){
+margin-top: 10vw;
+width: 10vw;
+}
+
+@media (max-width: 320px){
+    width: 12vw;
 }
 `
 
@@ -1091,19 +1154,22 @@ padding-left: 60px;
 margin-top: -5vw;
 
 @media (min-width: 700px) and (max-width: 849px){
-    padding-top: -3vw;
-    margin-top: -74px;
+margin-top: -74px;
 }
 
 @media (min-width: 426px) and (max-width: 699px){
-    padding-top: -3vw;
-    margin-top: -70px;
+margin-top: -70px;
 }
 
-@media (min-width: 376px) and (max-width: 425px){
-    font-size: 12px;
-    padding-top: -3vw;
-    margin-top: -62px;
+@media (min-width: 321px) and (max-width: 425px){
+font-size: 12px;
+margin-top: -62px;
+}
+
+@media (max-width: 320px){
+font-size: 13px;
+margin-top: -62px;
+margin-left: -3vw;
 }
 `
 
@@ -1115,8 +1181,12 @@ height: 5.5vh;
     width: 5vw;
 }
 
-@media (max-width: 425px){
+@media (min-width: 321px) and (max-width: 425px){
     width: 10vw;
+}
+
+@media (max-width: 320px){
+    width: 12vw;
 }
 `
 
@@ -1128,10 +1198,13 @@ height: 5.5vh;
     width: 5vw;
 }
 
-@media (max-width: 425px){
+@media (min-width: 321px) and (max-width: 425px){
     width: 10vw;
 }
 
+@media (max-width: 320px){
+    width: 12vw;
+}
 `
 
 export const FifthLine = styled.hr`
