@@ -1029,7 +1029,7 @@ export const Contact = styled.div`
 display: flex;
 flex-direction: column;
 gap: 3vw;
-margin-left: 56vw;
+margin-left: 58.6vw;
 margin-top: -24.7vw;  
 
 @media (min-width: 700px) and (max-width: 849px){
