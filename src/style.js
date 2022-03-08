@@ -946,7 +946,7 @@ margin-top: -31px;
 export const LinhaSeparação = styled.div`
 margin-top: 2vw;
 opacity: 0.9;
-width: 70vw;
+width: 80vw;
 margin-left: 4vw;
 border: 2px solid #0F98AF;
 border-start-start-radius: 10px;
@@ -1029,8 +1029,8 @@ export const Contact = styled.div`
 display: flex;
 flex-direction: column;
 gap: 3vw;
-margin-left: -155px;
-margin-top: -37vw;  
+margin-left: 56vw;
+margin-top: -24.7vw;  
 
 @media (min-width: 700px) and (max-width: 849px){
     margin-left: -26vw;
@@ -1129,7 +1129,7 @@ height: 5.5vh;
 `
 
 export const FifthLine = styled.hr`
-margin-top: 8vw;
+margin-top: 22vw;
 opacity: 0.2    ;
 border: 1px solid grey;
 width: 90vw;
