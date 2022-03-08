@@ -42,7 +42,9 @@ import MenuImage from './assets/menu-aberto.png'
 
 
 function App() {
-  
+  fetch(process.env.REACT_APP_API_URL || 'http//localhost:8080/api/v1')
+  .then(() => console.log('DEU CERTO'))
+  .catch(() => console.log('DEU ERRO'))
   const [menu, setMenu] = useState([]);
 
   
@@ -85,7 +87,7 @@ function App() {
         <Job>Desenvolvedor Front-end Jr ▪ React | JavaScript </Job>
         <Resume href={Curriculo} download><strong>Download CV</strong></Resume>
         <div>
-          <a href="https://github.com/marcusvinicius0" target="_blank"><GHlogo src={GitHubLogo} alt="github-icon" /></a>
+          <a href="https://github.com/marcusvinicius0" target="_blank" rel='noreferrer'><GHlogo src={GitHubLogo} alt="github-icon" /></a>
         </div>
       </Intro>
 
