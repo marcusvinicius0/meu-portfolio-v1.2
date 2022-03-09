@@ -258,13 +258,13 @@ border-radius: 10vw;
     margin-top: 47.5vw;
 }
 
-@media (min-width: 361px) and (max-width: 425px){
+@media (min-width: 375px) and (max-width: 425px){
     margin-top: 55vw;
     margin-left: -9vw;
 }
 
-@media (max-width: 360px){
-    margin-top: 71vw;
+@media (max-width: 374px){
+    margin-top: 60vw;
     margin-left: -9vw;
 }
 `
@@ -605,16 +605,16 @@ margin-top: -6vw;
 width: 7vw;
 }
 
-@media (min-width: 361px) and (max-width: 425px){
+@media (min-width: 376px) and (max-width: 425px){
 margin-left: 27vw;
 margin-top: -7.5vw;
 width: 10vw;
 }
 
-@media (max-width: 360px){
-margin-left: 27vw;
+@media (max-width: 375px){
+margin-left: 33vw;
 margin-top: -9.5vw;
-width: 14vw;
+width: 11vw;
 }
 `   
 
@@ -804,12 +804,12 @@ margin-top: 8vw;
 gap: 8vw;
 }
 
-@media (max-width: 360px){
+@media (max-width: 375px){
 justify-content: center;
 align-items: center;
 margin-top: 8vw;
 gap: 15vw;
-margin-left: 8vw;
+margin-left: 10vw;
 }
 `
 
