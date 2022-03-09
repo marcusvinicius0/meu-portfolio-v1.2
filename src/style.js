@@ -11,18 +11,18 @@ z-index: 1;
 cursor: pointer;
 display: none;
 
-@media (max-width: 599px){
+@media (max-width: 699px){
     display: block;
-    margin-top: -16vw;
-    margin-left: 86vw;
-    width: 9vw;
+    margin-top: 1vw;
+    margin-left: 85vw;
+    width: 7vw;
     position: fixed;
 }
 
-@media (max-width: 360px){
+@media (max-width: 400px){
     display: block;
-    margin-top: -14vw;
-    margin-left: 87vw;
+    margin-top: -16vw;
+    margin-left: 82vw;
     width: 9vw;
     position: fixed;    
 }

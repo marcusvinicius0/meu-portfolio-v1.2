@@ -45,23 +45,14 @@ function App() {
   fetch(process.env.REACT_APP_API_URL || 'http//localhost:8080/api/v1')
   .then(() => console.log('DEU CERTO'))
   .catch(() => console.log('DEU ERRO'))
-  const [menu, setMenu] = useState([]);
 
   
-
   const data = new Date();
   const dia = String(data.getDate()).padStart(2, '0');
   const mes = String(data.getMonth() + 1).padStart(2, '0');
   const ano = data.getFullYear();
 
   const dataAtual = dia + '/' + mes + '/' + ano;
-
-
-  function MenuList() {
- 
-    setMenu([menu])
-   console.log("oii")
-  }
 
 
   return (
@@ -78,7 +69,7 @@ function App() {
       </Nav>
 
 
-      <Menu src={MenuImage} onClick={MenuList}></Menu>
+      <Menu src={MenuImage}></Menu>
 
 
       <Intro>
