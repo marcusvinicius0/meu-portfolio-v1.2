@@ -258,12 +258,12 @@ border-radius: 10vw;
     margin-top: 47.5vw;
 }
 
-@media (min-width: 376px) and (max-width: 425px){
+@media (min-width: 377px) and (max-width: 425px){
     margin-top: 55vw;
     margin-left: -9vw;
 }
 
-@media (max-width: 375px){
+@media (max-width: 376px){
     margin-top: 60vw;
     margin-left: -9vw;
 }
