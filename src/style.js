@@ -18,6 +18,14 @@ display: none;
     width: 9vw;
     position: fixed;
 }
+
+@media (max-width: 340px){
+    display: block;
+    margin-top: -16vw;
+    margin-left: 78vw;
+    width: 9vw;
+    position: fixed;    
+}
 `
 
 export const Nav = styled.div`
@@ -255,7 +263,7 @@ border-radius: 10vw;
     margin-left: -9vw;
 }
 
-@media (max-width: 325px){
+@media (max-width: 340px){
     margin-top: 71vw;
     margin-left: -9vw;
 }
@@ -310,12 +318,12 @@ margin-top: 3.2vw;
     margin-top: 30px;
 }
 
-@media (min-width: 326px) and (max-width: 425px){
+@media (min-width: 341px) and (max-width: 425px){
     margin-left: 58vw;
     margin-top: 43px;
 }
 
-@media (max-width: 325px){
+@media (max-width: 340px){
 margin-left: 62vw;
 margin-top: 36px;
 }
@@ -603,8 +611,8 @@ margin-top: -7.5vw;
 width: 10vw;
 }
 
-@media (max-width: 325px){
-margin-left: 29vw;
+@media (max-width: 340px){
+margin-left: 27vw;
 margin-top: -9.5vw;
 width: 14vw;
 }
@@ -796,12 +804,12 @@ margin-top: 8vw;
 gap: 8vw;
 }
 
-@media (max-width: 325px){
+@media (max-width: 340px){
 justify-content: center;
 align-items: center;
 margin-top: 8vw;
 gap: 15vw;
-margin-left: 13vw;
+margin-left: 8vw;
 }
 `
 
@@ -821,14 +829,14 @@ width: 7vw;
 margin-left: 3vw;
 }
 
-@media (min-width: 326px) and (max-width: 425px){
+@media (min-width: 341px) and (max-width: 425px){
 width: 10vw;
 margin-left: -13vw;
 }
 
-@media (max-width: 325px){
-width: 15vw;
-margin-left: -17vw;
+@media (max-width: 340px){
+width: 12vw;
+margin-left: -10vw;
 }
 `
 
@@ -849,8 +857,8 @@ margin-left: 14vw;
 margin-left: 5vw;
 }
 
-@media (max-width: 325px){
-margin-left: -1vw;
+@media (max-width: 340px){
+margin-left: 3vw;
 
 }
 `
@@ -874,9 +882,9 @@ width: 8vw;
 margin-left: -16vw;
 }
 
-@media (max-width: 325px){
-width: 12vw;
-margin-left: -20vw;
+@media (max-width: 340px){
+width: 9vw;
+margin-left: -13.6vw;
 }
 `
 export const JSXP = styled.p`
@@ -888,8 +896,8 @@ margin-top: -31px;
 margin-left: 1vw;
 }
 
-@media (max-width: 325px){
- margin-left: -5vw;
+@media (max-width: 340px){
+ margin-left: -2vw;
 }
 `
 
@@ -908,16 +916,18 @@ width: 4.5vw;
 margin-left: 0.5vw;
 }
 
-@media (min-width: 326px) and (max-width: 425px){
+@media (min-width: 341px) and (max-width: 425px){
 width: 10vw;
 height: 5.5vh;
 margin-left: -17.2vw;
 margin-top: 2vw;
 }
 
-@media (max-width: 325px){
-width: 14vw;
-margin-left: -21vw;
+@media (max-width: 340px){
+width: 10vw;
+height: 10.5vw;
+margin-top: 2vw;
+margin-left: -14.2vw;
 }
 `
 
@@ -930,8 +940,8 @@ margin-top: -31px;
 margin-left: 1vw;
 }
 
-@media (max-width: 325px){
-margin-left: -5vw;
+@media (max-width: 340px){
+margin-left: -2vw;
 }
 `
 
@@ -949,14 +959,14 @@ width: 5vw;
 width: 9vw;
 }
 
-@media (min-width: 326px) and (max-width: 425px){
+@media (min-width: 341px) and (max-width: 425px){
 width: 12vw;
 margin-left: -19vw;
 }
 
-@media (max-width: 325px){
-width: 17vw;
-margin-left: -22.7vw;
+@media (max-width: 340px){
+width: 12vw;
+margin-left: -15.4vw;
 }
 `
 
@@ -969,8 +979,8 @@ margin-top: -31px;
 margin-left: 0vw;
 }
 
-@media (max-width: 325px){
-margin-left: -5vw;
+@media (max-width: 340px){
+margin-left: -2vw;
 }
 `
 
@@ -989,14 +999,14 @@ width: 4.5vw;
 width: 7vw;
 }
 
-@media (min-width: 326px) and (max-width: 425px){
+@media (min-width: 341px) and (max-width: 425px){
 width: 10vw;
 margin-left: -18vw;
 }
 
-@media (max-width: 325px){
-width: 14vw;
-margin-left: -21vw;
+@media (max-width: 340px){
+width: 10vw;
+margin-left: -14vw;
 }
 `
 export const GITXP = styled.p`
@@ -1008,8 +1018,8 @@ margin-top: -31px;
 margin-left: 0vw;
 }
 
-@media (max-width: 325px){
-margin-left: -5vw;
+@media (max-width: 340px){
+margin-left: -2vw;
 }
 `
 
@@ -1124,15 +1134,15 @@ margin-top: -24.7vw;
     gap: 9vw;
 }
 
-@media (min-width: 324px) and (max-width: 425px){
+@media (min-width: 341px) and (max-width: 425px){
     margin-left: 16px;
     margin-top: -9vw;
     gap: 9vw;
 }
 
-@media (max-width: 323px){
+@media (max-width: 340px){
     margin-left: 16px;
-    margin-top: 8vw;
+    margin-top: -4vw;
     gap: 12vw;
 }
 `
