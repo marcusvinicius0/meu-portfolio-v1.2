@@ -258,12 +258,12 @@ border-radius: 10vw;
     margin-top: 47.5vw;
 }
 
-@media (min-width: 375px) and (max-width: 425px){
+@media (min-width: 376px) and (max-width: 425px){
     margin-top: 55vw;
     margin-left: -9vw;
 }
 
-@media (max-width: 374px){
+@media (max-width: 375px){
     margin-top: 60vw;
     margin-left: -9vw;
 }
@@ -809,7 +809,7 @@ justify-content: center;
 align-items: center;
 margin-top: 8vw;
 gap: 15vw;
-margin-left: 10vw;
+margin-left: 11vw;
 }
 `
 
@@ -1097,15 +1097,23 @@ margin-left: 30vw;
 margin-top: -60.4vw;
 
 @media (max-width: 849px){
-   margin-left: 49vw;
+margin-left: 49vw;
 }
 
 @media (max-width: 425px){
-    margin-left: 61vw;
-    margin-top: -33vw;
-    margin-right: 30vw;
-    justify-content: center;
-    align-items: center;
+margin-left: 61vw;
+margin-top: -33vw;
+margin-right: 30vw;
+justify-content: center;
+align-items: center;
+}
+
+@media (max-width: 375px){
+margin-left: 61vw;
+margin-top: -33vw;
+margin-right: 35vw;
+justify-content: center;
+align-items: center;    
 }
 `
 
