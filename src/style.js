@@ -19,10 +19,10 @@ display: none;
     position: fixed;
 }
 
-@media (max-width: 340px){
+@media (max-width: 360px){
     display: block;
-    margin-top: -16vw;
-    margin-left: 78vw;
+    margin-top: -14vw;
+    margin-left: 87vw;
     width: 9vw;
     position: fixed;    
 }
@@ -258,12 +258,12 @@ border-radius: 10vw;
     margin-top: 47.5vw;
 }
 
-@media (min-width: 326px) and (max-width: 425px){
+@media (min-width: 361px) and (max-width: 425px){
     margin-top: 55vw;
     margin-left: -9vw;
 }
 
-@media (max-width: 340px){
+@media (max-width: 360px){
     margin-top: 71vw;
     margin-left: -9vw;
 }
@@ -605,13 +605,13 @@ margin-top: -6vw;
 width: 7vw;
 }
 
-@media (min-width: 326px) and (max-width: 425px){
+@media (min-width: 361px) and (max-width: 425px){
 margin-left: 27vw;
 margin-top: -7.5vw;
 width: 10vw;
 }
 
-@media (max-width: 340px){
+@media (max-width: 360px){
 margin-left: 27vw;
 margin-top: -9.5vw;
 width: 14vw;
@@ -804,7 +804,7 @@ margin-top: 8vw;
 gap: 8vw;
 }
 
-@media (max-width: 340px){
+@media (max-width: 360px){
 justify-content: center;
 align-items: center;
 margin-top: 8vw;
@@ -1134,13 +1134,13 @@ margin-top: -24.7vw;
     gap: 9vw;
 }
 
-@media (min-width: 341px) and (max-width: 425px){
+@media (min-width: 361px) and (max-width: 425px){
     margin-left: 16px;
     margin-top: -9vw;
     gap: 9vw;
 }
 
-@media (max-width: 340px){
+@media (max-width: 360px){
     margin-left: 16px;
     margin-top: -4vw;
     gap: 12vw;
