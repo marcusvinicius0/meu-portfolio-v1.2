@@ -24,14 +24,14 @@ Mudanças: <br>
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="blank">CSS</a>;
 <br>
 <br>
-
-## O que falta?
+##
+ O que falta?
 
 - Responsividade com mediaqueries;
 - Projeto Cadastro de Usuários; (Subir o back-end)
 - Projeto Pedido de lanches; (Subir o back-end)
-
-## 🤝 Colaboradores
+##
+ 🤝 Colaboradores
 
 <a href="https://www.linkedin.com/in/marcusviniciusbeghelisantos/" target="_blank">Marcus Vinícius</a><br>
 
