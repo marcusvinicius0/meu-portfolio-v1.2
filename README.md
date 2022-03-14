@@ -1,4 +1,4 @@
-# Meu portfólio v1.2 📓 - (Em produção)
+# Meu portfólio v1.2 📓 - processo de refatoramento (14/03/22)
 
 
 <img src="./src/assets/portfolioreact.gif">
