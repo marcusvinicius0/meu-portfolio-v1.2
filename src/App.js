@@ -1,5 +1,7 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
+import ContainerProject from './Components/ContainerProjeto/index.js';
+import ImageProject from './Components/ImageProject/index.js';
 
 import {
   Nav, Menu, Intro, Ul, Li, Aa, A, H1, Job, Resume, GHlogo, Universe, Galaxy,
@@ -14,30 +16,31 @@ import {
   Developer,
 
 
+
 } from './style.js'
 
-import Curriculo from './assets/curriculo.pdf'
-import PortfolioLogo from './assets/nano-tecnologia (1).png'
-import GitHubLogo from './assets/githublogo.png'
-import Man from './assets/Looper BG.svg'
-import ConvertorProjectPrint from './assets/print-convertor.png'
-import MyPortfolioProjectPrint from './assets/portfolioprint.png'
-import RegisterProject from './assets/cadastroprojeto.png'
-import PS5Project from './assets/ps5lpage.png'
-import NikeProject from './assets/nikelandingpage.png'
-import JordanLandingProject from './assets/landpgprint.png'
-import BurguerOrder from './assets/pedidolanches.png'
-import LoginProject from './assets/loginprojectprint.png'
-import FormularyProject from './assets/sfor.png'
-import ReactLogo from './assets/atom.png'
-import JavaScriptLogo from './assets/js.png'
-import CssLogo from './assets/css3.png'
-import HtmlLogo from './assets/html5.png'
-import GitLogo from './assets/git.png'
-import In from './assets/in.png'
-import WhatsAppLogo from './assets/whatsapplogo.png'
-import GmailLogo from './assets/gmaillogo.png'
-import MenuImage from './assets/menu-aberto.png'
+import Curriculo from './assets/curriculo.pdf';
+import PortfolioLogo from './assets/nano-tecnologia (1).png';
+import GitHubLogo from './assets/githublogo.png';
+import Man from './assets/Looper BG.svg';
+import ConvertorProjectPrint from './assets/print-convertor.png';
+import MyPortfolioProjectPrint from './assets/portfolioprint.png';
+import RegisterProject from './assets/cadastroprojeto.png';
+import PS5Project from './assets/ps5lpage.png';
+import NikeProject from './assets/nikelandingpage.png';
+import JordanLandingProject from './assets/landpgprint.png';
+import BurguerOrder from './assets/pedidolanches.png';
+import LoginProject from './assets/loginprojectprint.png';
+import FormularyProject from './assets/sfor.png';
+import ReactLogo from './assets/atom.png';
+import JavaScriptLogo from './assets/js.png';
+import CssLogo from './assets/css3.png';
+import HtmlLogo from './assets/html5.png';
+import GitLogo from './assets/git.png';
+import In from './assets/in.png';
+import WhatsAppLogo from './assets/whatsapplogo.png';
+import GmailLogo from './assets/gmaillogo.png';
+import MenuImage from './assets/menu-aberto.png';
 
 
 
@@ -53,6 +56,10 @@ function App() {
   const ano = data.getFullYear();
 
   const dataAtual = dia + '/' + mes + '/' + ano;
+
+  const [botao, setBotao] = useState([])
+
+
 
 
   return (
@@ -71,9 +78,7 @@ function App() {
 
       <Menu src={MenuImage}></Menu>
 
-
       <Intro>
-
         <H1 id="home">Olá, eu sou o<br /> Marcus!</H1>
         <Job>Desenvolvedor Front-end Jr ▪ React | JavaScript </Job>
         <Resume href={Curriculo} download><strong>Download CV</strong></Resume>
@@ -140,6 +145,10 @@ function App() {
             <P> Projeto Formulário de pesquisa, <br /> <Strong>desenvolvido com HTML e CSS.</Strong></P>
             <a href='https://github.com/marcusvinicius0/Formulario-de-pesquisa' target="_blank" rel="noreferrer"><GHlogo1 src={GitHubLogo} alt="github-icon" /></a></NinthProject>
         </Container>
+
+        <ContainerProject><ImageProject src={JordanLandingProject}></ImageProject></ContainerProject>
+        
+
         <ThirdLine></ThirdLine>
       </Projetos>
 
